@@ -1,0 +1,284 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+/* ===== Inputs ===== */
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 250px;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ===== Containers ===== */
+.login-container,
+.signup-container,
+.home-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Headings ===== */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-box input {
+  padding: 8px;
+  width: 150px;
+}
+
+.notif {
+  position: relative;
+}
+
+.notif-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+}
+
+.profile {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* ===== Home Layout ===== */
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-body {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* ===== LeftBar ===== */
+.leftbar {
+  width: 220px;
+  min-width: 220px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+.leftbar ul {
+  list-style: none;
+  padding: 0;
+}
+.leftbar li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* ===== RightBar ===== */
+.rightbar {
+  width: 250px;
+  min-width: 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+.rightbar ul {
+  list-style: none;
+  padding: 0;
+}
+.rightbar li {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+/* ===== Feed ===== */
+.feed {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* ===== Stories ===== */
+.stories {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.stories-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  scroll-behavior: smooth;
+}
+
+.stories-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.story {
+  min-width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.story-ring {
+  width: 65px;
+  height: 65px;
+  padding: 3px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, red, orange, pink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.story-ring img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+.add-story {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  background: blue;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* ===== Create Post ===== */
+.create-post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.input-with-add {
+  position: relative;
+}
+
+.input-with-add input {
+  width: 80%;
+  padding: 12px 45px 12px 15px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.input-with-add input:focus {
+  border-color: #007bff;
+}
+
+.add-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  color: blue;
+}
+
+.post-btn {
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 25px;
+  background: blue;
+  color: white;
+  cursor: pointer;
+}
+
+/* ===== Posts ===== */
+.post {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-actions span {
+  margin-right: 15px;
+  cursor: pointer;
+}
