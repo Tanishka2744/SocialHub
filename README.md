@@ -1,21 +1,46 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌟 SocialHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi! I’m **Tanishka Khandelwal** 👩‍💻, a **Frontend Developer**.  
+**SocialHub** is my personal React project built with **React.js and Vite**, showcasing **modern web design, responsive layouts, and interactive UI components**.
 
-Currently, two official plugins are available:
+💡 This project is focused on **simulating social media platform features**, including feeds, messages, notifications, and friend interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[🚀 View SocialHub Live](https://social-hub-tawny.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# SocialHub
-SocialHub – A modern social media web app built with React featuring posts, stories, chat, follow/unfollow, and dark mode UI.
->>>>>>> d5cbeb398571f63209ab848e8d8fca9f2a206c68
+## 🌈 Tech Skills
+
+**Frontend:** ⚛️ React.js | 💻 JavaScript (ES6+) | 🌐 HTML5 / CSS3  
+**Tools & Workflow:** 🐙 Git & GitHub | 🖥️ VSCode | ⚡ Vite | 🔍 ESLint  
+
+---
+
+## 💻 About SocialHub
+
+- Built using **React.js with Vite** for fast development  
+- Follows **component-based architecture**  
+- Designed for **responsive and interactive UI**  
+- Includes features like **feeds, messaging, notifications, and friend interactions**  
+
+---
+
+## 🌱 Learning & Growth
+
+- ⚡ Strengthening **React fundamentals & structure**  
+- 🌐 Improving **responsive design skills**  
+- 💻 Building **real-world UI experiences**  
+
+---
+
+## 📬 Connect With Me
+
+[🌐 Portfolio](https://tanishka-dev.vercel.app/) | [💼 LinkedIn](https://www.linkedin.com/in/tanishkakhandelwal122704) | [🐙 GitHub](https://github.com/Tanishka2744/SocialHub) | [📧 Email](mailto:tanishkakhandelwal00@gmail.com)
+
+---
+
+Made with ❤️ using **React.js & Vite**
